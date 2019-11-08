@@ -13,7 +13,7 @@ body {
   font-family: sans-serif;
 }
 h1 {
-  padding-top: 10%;
+  padding-top: 8%;
   text-align: center;
   font-size: 170%;
   font-weight: 500;
@@ -49,13 +49,14 @@ i {
   height: 40px;
 }
 .row, .row2, .row3, .row4, .row5 {
-border-bottom: 1px solid #000000;
+border-bottom: 1px solid #3581C8;
 }
 .i, .label, .heart {
   display: inline;
 }
 .label {
-  font-size: 120%;
+  font-size: 125%;
+  padding-bottom: 2px;
 }
 .heart {
   float: right;
@@ -63,7 +64,7 @@ border-bottom: 1px solid #000000;
   padding-right: 5%;
 }
 .head {
-  padding-top: 5px;
+  padding-top: 10px;
   font-size: 105%;
 }
 h3 {
@@ -71,9 +72,9 @@ h3 {
   padding-left: 10%;
 }
 .feature {
-  border-top: 1px solid #000000;
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
+  border-top: 1px solid #3581C8;
+  border-right: 1px solid #3581C8;
+  border-left: 1px solid #3581C8;
 }
 .whitebox {
   background-color: white;
