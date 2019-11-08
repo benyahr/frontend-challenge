@@ -3,12 +3,12 @@
 }
 body {
   background-color: #FFFF;
-  font-size: 16px;
+  font-size: 10px;
 }
 .container {
   margin: 0 auto;
-  width: 750px;
-  height: 1334px;
+  width: 375px;
+  height: 667px;
   background-color: #DEF9FF;
   font-family: sans-serif;
 }
@@ -20,7 +20,7 @@ h1 {
 }
 h2 {
   padding-left: 10%;
-  font-size: 125%;
+  font-size: 150%;
 }
 i {
   padding-top: 5%;
@@ -31,18 +31,20 @@ i {
   padding-left: 10%;
   padding-bottom: 5%;
 }
-.column1 {
+.column1, .column2, .column3 {
   float: left;
   width: 33.33%;
   padding: 10px;
+  display: inline-block;
 }
-.column2 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+.row3, .row2 {
+  clear: left;
 }
-.column3 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+.i, .label, .heart {
+  display: inline;
+}
+}
+.heart {
+padding-left: 100%;
+float: right;
 }
