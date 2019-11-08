@@ -15,12 +15,12 @@ body {
 h1 {
   padding-top: 10%;
   text-align: center;
-  font-size: 200%;
+  font-size: 170%;
   font-weight: bold;
 }
 h2 {
   padding-left: 10%;
-  font-size: 150%;
+  font-size: 175%;
 }
 i {
   padding-top: 5%;
@@ -33,18 +33,43 @@ i {
 }
 .column1, .column2, .column3 {
   float: left;
-  width: 33.33%;
+  width: 22%;
   padding: 10px;
-  display: inline-block;
+  display: block;
 }
-.row3, .row2 {
+.column2 {
+  width: 53%;
+}
+.column3 {
+  width: 20%;
+}
+
+.row, .row3, .row2, .row4, .row5, .row6, .row7, .row8 {
   clear: left;
 }
 .i, .label, .heart {
   display: inline;
 }
+.label {
+  font-size: 120%;
 }
 .heart {
-padding-left: 100%;
-float: right;
+  float: right;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.head {
+  padding-top: 30px;
+  font-size: 105%;
+}
+h3 {
+  font-size: 140%;
+  padding-left: 10%;
+}
+.feature {
+  border: 1px solid #000000;
+box-sizing: border-box;
+}
+.whitebox {
+  background-color: white;
 }
