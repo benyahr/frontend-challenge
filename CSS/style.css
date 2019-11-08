@@ -16,7 +16,7 @@ h1 {
   padding-top: 10%;
   text-align: center;
   font-size: 170%;
-  font-weight: bold;
+  font-weight: 500;
 }
 h2 {
   padding-left: 10%;
@@ -46,6 +46,10 @@ i {
 
 .row, .row3, .row2, .row4, .row5, .row6, .row7, .row8 {
   clear: left;
+  height: 40px;
+}
+.row, .row2, .row3, .row4, .row5 {
+border-bottom: 1px solid #000000;
 }
 .i, .label, .heart {
   display: inline;
@@ -59,7 +63,7 @@ i {
   padding-right: 5%;
 }
 .head {
-  padding-top: 30px;
+  padding-top: 5px;
   font-size: 105%;
 }
 h3 {
@@ -67,9 +71,15 @@ h3 {
   padding-left: 10%;
 }
 .feature {
-  border: 1px solid #000000;
-box-sizing: border-box;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
 }
 .whitebox {
   background-color: white;
+}
+.header {
+  background-color: #3581C8;
+  color: white;
+  padding-bottom: 30px;
 }
