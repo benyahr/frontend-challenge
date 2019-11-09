@@ -23,8 +23,9 @@ h2 {
   font-size: 175%;
 }
 i {
-  padding-top: 5%;
-  padding-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  padding-left: 3%;
 }
 .head h1 {
   text-align: left;
@@ -57,6 +58,7 @@ border-bottom: 1px solid #3581C8;
 .label {
   font-size: 125%;
   padding-bottom: 2px;
+  padding-left: 2%;
 }
 .heart {
   float: right;
