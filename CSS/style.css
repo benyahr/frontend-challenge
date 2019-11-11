@@ -36,7 +36,6 @@ i {
   float: left;
   width: 22%;
   padding: 10px;
-  display: block;
 }
 .column2 {
   width: 53%;
@@ -48,9 +47,6 @@ i {
 .row, .row3, .row2, .row4, .row5, .row6, .row7, .row8 {
   clear: left;
   height: 40px;
-}
-.row, .row2, .row3, .row4, .row5 {
-border-bottom: 1px solid #3581C8;
 }
 .i, .label, .heart {
   display: inline;
@@ -74,12 +70,13 @@ h3 {
   padding-left: 10%;
 }
 .feature {
-  border-top: 1px solid #3581C8;
-  border-right: 1px solid #3581C8;
-  border-left: 1px solid #3581C8;
+  padding-left: 23px;
+  border: 1px solid #3581C8;
+
 }
 .whitebox {
   background-color: white;
+
 }
 .header {
   background-color: #3581C8;
