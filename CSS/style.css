@@ -12,13 +12,16 @@ body {
   background-color: #DEF9FF;
   font-family: sans-serif;
 }
+ul li {
+  display: inline;
+}
 h1 {
   padding-top: 8%;
   text-align: center;
   font-size: 170%;
   font-weight: 500;
 }
-h2 {
+ul {
   padding-left: 10%;
   font-size: 175%;
 }
@@ -27,26 +30,36 @@ i {
   padding-bottom: 5%;
   padding-left: 3%;
 }
-.head h1 {
+.section_head h1 {
   text-align: left;
   padding-left: 10%;
   padding-bottom: 5%;
+  padding-top: 10px;
+  font-size: 105%;
 }
-.column1, .column2, .column3 {
+.bus, .destination, .time, .lower_bus, .lower_location, .lower_time {
   float: left;
   width: 22%;
   padding: 10px;
 }
-.column2 {
+.destination, .lower_location {
   width: 53%;
 }
-.column3 {
+.time, .lower_time {
   width: 20%;
 }
-
-.row, .row3, .row2, .row4, .row5, .row6, .row7, .row8 {
+.destination {
+  font-size: 80%;
+}
+.ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5 {
+  border-bottom: 1px solid #3581C8;
+}
+.ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5, .ul_row6, .ul_row7, .ul_row8 {
   clear: left;
   height: 40px;
+}
+.ul_row6, .ul_row7, .ul_row8 {
+  font-size: 120%
 }
 .i, .label, .heart {
   display: inline;
@@ -61,17 +74,16 @@ i {
   padding-top: 5%;
   padding-right: 5%;
 }
-.head {
-  padding-top: 10px;
-  font-size: 105%;
-}
+
 h3 {
   font-size: 140%;
   padding-left: 10%;
 }
 .feature {
   padding-left: 23px;
-  border: 1px solid #3581C8;
+  border-top: 1px solid #3581C8;
+  border-right: 1px solid #3581C8;
+  border-left: 1px solid #3581C8;
 
 }
 .whitebox {
