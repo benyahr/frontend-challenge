@@ -45,12 +45,15 @@ i {
 }
 .destination, .lower_location {
   width: 53%;
+  text-align: center;
 }
 .time, .lower_time {
   width: 20%;
 }
 .destination {
   font-size: 80%;
+}
+.lower_bus {
   text-align: center;
 }
 .ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5 {
@@ -81,12 +84,15 @@ i {
 
 .feature {
   padding-left: 0px;
-  border: 1px solid #3581C8;
+  border: 1px solid;
   text-align: center;
 
 }
 .time {
-  font-size: 75%;
+  font-size: 60%;
+}
+.bold {
+  font-size: 100%;
 }
 .whitebox {
   background-color: white;
