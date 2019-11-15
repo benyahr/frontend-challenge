@@ -58,7 +58,7 @@ i {
 }
 .ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5 {
   border-bottom: 1px solid #3581C8;
-  padding-left: 0%;
+  padding-bottom: 10px;
 }
 .ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5, .ul_row6, .ul_row7, .ul_row8 {
   clear: left;
@@ -68,17 +68,21 @@ i {
   font-size: 120%;
   margin-top: 0%;
 }
-.i, .label, .heart {
-  display: inline;
-}
+
 .label {
   font-size: 125%;
-  padding-bottom: 2px;
   padding-left: 2%;
+}
+.chevron, .label, .heart {
+  display: inline-block;
+  padding-bottom: 4%;
+  padding-top: 3%;
+}
+.label {
+  margin-top: -5%;
 }
 .heart {
   float: right;
-  padding-top: 5%;
   padding-right: 5%;
 }
 
@@ -89,10 +93,13 @@ i {
 
 }
 .time {
-  font-size: 60%;
+  font-size: 65%;
+  margin-top: -10px;
+  line-height: 15px;
 }
 .bold {
-  font-size: 100%;
+  font-size: 16px;
+  font-weight: 500;
 }
 .whitebox {
   background-color: white;
