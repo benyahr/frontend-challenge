@@ -10,7 +10,7 @@ body {
   width: 375px;
   height: 667px;
   background-color: #DEF9FF;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 ul li {
   display: inline;
@@ -22,20 +22,21 @@ h1 {
   font-weight: 500;
 }
 ul {
-  padding-left: 10%;
+  padding-left: 0%;
   font-size: 175%;
+  margin-top: 5%;
 }
 i {
   padding-top: 4%;
   padding-bottom: 5%;
   padding-left: 3%;
 }
-.section_head h1 {
+.head_lower h1, .section_head h1 {
   text-align: left;
   padding-left: 10%;
-  padding-bottom: 5%;
-  padding-top: 10px;
-  font-size: 105%;
+  padding-bottom: 7%;
+  padding-top: 7%;
+  font-size: 170%;
 }
 .bus, .destination, .time, .lower_bus, .lower_location, .lower_time {
   float: left;
@@ -50,16 +51,19 @@ i {
 }
 .destination {
   font-size: 80%;
+  text-align: center;
 }
 .ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5 {
   border-bottom: 1px solid #3581C8;
+  padding-left: 0%;
 }
 .ul_row1, .ul_row2, .ul_row3, .ul_row4, .ul_row5, .ul_row6, .ul_row7, .ul_row8 {
   clear: left;
-  height: 40px;
+  height: 60px;
 }
 .ul_row6, .ul_row7, .ul_row8 {
-  font-size: 120%
+  font-size: 120%;
+  margin-top: 0%;
 }
 .i, .label, .heart {
   display: inline;
@@ -75,16 +79,14 @@ i {
   padding-right: 5%;
 }
 
-h3 {
-  font-size: 140%;
-  padding-left: 10%;
-}
 .feature {
-  padding-left: 23px;
-  border-top: 1px solid #3581C8;
-  border-right: 1px solid #3581C8;
-  border-left: 1px solid #3581C8;
+  padding-left: 0px;
+  border: 1px solid #3581C8;
+  text-align: center;
 
+}
+.time {
+  font-size: 75%;
 }
 .whitebox {
   background-color: white;
